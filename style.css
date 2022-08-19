@@ -1,0 +1,50 @@
+*{
+    font-family:phetsarath ot;
+}
+/*}
+button{
+    padding:30px 30px;
+    cursor:pointer;
+    border:0px;
+    background:transparent;
+    position: relative;
+    margin:10px;
+    transition: all 0.25s ease;
+}
+.btn-1{
+    background-color: blue;
+    color:#fff;
+    border-radius: 30px;
+    transition: all 0.25s ease;
+}*/
+.btn{
+    margin-top:10px;
+    background:transparent;
+    position:relative;
+    transition: all 0.50s ease;
+    cursor:pointer;
+    border:0px;
+    border-radius: 30px;
+}
+.btn:hover{
+    transform:translateY(-9px);
+    color:black;
+}
+.nav-link{
+    transition: all 0.50s ease;
+    border-radius: 30px;
+}
+.nav-link:hover{
+    transform:translateY(-9px);
+    background:blue;
+}
+.dropdown-item{
+    transition:all 0.70s ease;
+}
+.dropdown-item:hover{
+    transform:translateY(-9px);
+    background:blue;
+}
+.li{
+    font-size: 12px;
+}
